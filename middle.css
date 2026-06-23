@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#help-btn {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    width: 30px;
+    height: 30px;
+    background: olivedrab;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.info-box {
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    background: white;
+    font-family: monospace;
+
+    display: none; /* 🔥 처음엔 숨김 */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 90vw;
+  height: 100vh;
+
+  font-size: 120px;
+  line-height: 1.2;
+  font-weight: 100;
+  font-family: 'Noto Sans KR', sans-serif;
+
+  padding: 40px;
+
+  /* background: yellow; */
+  background: transparent;
+  color: black;
+
+  border: none;
+  outline: none;
+
+  box-sizing: border-box;
+  resize: none; /* 크기 조절 막기 */
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.a {
+  position: absolute;
+  bottom: 20px;
+  left: 60%;
+  display: flex;
+  align-items: flex-end;
+
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: LEFT;
+}
+
+.b {
+  position: absolute;
+  bottom: 20px;
+  left: 30%;
+  display: flex;
+  align-items: flex-end;
+
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: LEFT;
+}
+
+.fade {
+  opacity: 0.3;
+  transition: 0.5s; /* 🔥 부드럽게 */
+  color: #5A3A1B;
+}
+
+.result-text {
+  position: absolute;
+  top: 20px;
+  left: 2%;
+
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #5A3A1B;
+
+  opacity: 0;
+  transition: 0.6s ease;
+
+  pointer-events: none;
+}
